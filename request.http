@@ -1,0 +1,35 @@
+###
+GET http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3000/users?age=HTTP/1.1
+content-type: application/json
+
+###
+GET http://localhost:3000/user?cell= HTTP/1.1
+content-type: application/json
+
+###
+POST http://localhost:3000/users HTTP/1.1
+content-type: application/json
+
+{
+    "name":"",
+    "cpf":"" ,
+    "age":,
+    "cell":
+}
+
+
+###
+PATCH http://localhost:3000/users/ HTTP/1.1
+content-type: application/json
+
+{
+    
+}
+
+###
+DELETE  http://localhost:3000/users/ HTTP/1.1
+content-type: application/json
